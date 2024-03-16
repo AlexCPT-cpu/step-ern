@@ -39,7 +39,8 @@ export default function App() {
       >
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Steps" component={StepsScreen} />
-        <Tab.Screen name="Wallet" component={WalletScreen} />
+        <Tab.Screen name="Diagnostic chat" component={WalletScreen} />
+        
       </Tab.Navigator>
     </NavigationContainer>
   );
